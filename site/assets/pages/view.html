@@ -1,0 +1,57 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-success panel-mix-height">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="lead">Channel</p>
+                        <form class="bottom-buffer">
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Channel Name" ng-model="name" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPrivKey">Control ID</label>
+                                <input type="text" class="form-control" id="inputPrivKey" placeholder="Channel Private ID" ng-model="privKey" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPubKey">Share ID</label>
+                                <input type="text" class="form-control" id="inputPubKey" placeholder="Channel Share ID" ng-model="pubKey" readonly>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="panel panel-info panel-mix-height">
+            <div class="panel-body">
+                <p class="lead">Cockpit</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="bold">Control with switch</p>
+                        <input type="checkbox" name="channelSwitch" data-size="mini">
+                    </div>
+                    <div class="col-md-12">
+                        <hr />
+                        <p class="bold">Control with slider</p>
+                        <input id="channelSlider" data-slider-id='channelSlider' type="text"/>
+                    </div>
+
+                    <div class="col-md-12">
+                        <hr />
+                        <div class="form-group">
+                            <label for="inputValue">Value in channel</label>
+                            <input type="text" class="form-control" id="inputValue" placeholder="Value" ng-model="value" readonly>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-12 last-element">
+        <a class="btn btn-xs btn-default" role="button" href="/iot/#/">Go Home</a>
+    </div>

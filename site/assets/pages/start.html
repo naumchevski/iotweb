@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-md-12">
+        <p class="lead">Start <b>channel</b> and control your <b>IoT</b> device</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-success">
+            <div class="panel-body">
+                <p class="lead">1. Start new channel</p>
+
+                <div class="center">
+                    <div class="form-group">
+                        <input type="text" ng-model="name" class="form-control" placeholder="Enter Channel Name" size="50" maxlength="50">
+                    </div>
+
+                    <div class="btn btn-success" role="button" ng-click="startChannel()">Start your channel today</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel panel-info">
+            <div class="panel-body">
+                <p class="lead">2. Open existing channel</p>
+
+                <div class="center">
+                    <div class="form-group">
+                        <input type="text" ng-model="key" class="form-control" placeholder="Enter Channel Key (xxxx-xxxx-xxxx-xxxx)" size="19" maxlength="19">
+                    </div>
+
+                    <div class="btn btn-info" role="button" ng-click="openChannel()">Open existing channel</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        
+    </div>
+</div>
